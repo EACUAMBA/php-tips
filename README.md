@@ -4,4 +4,4 @@ Neste repositório vai encontrar os projectos realizados com base nos videos do 
 
 ## Vimos vários assuntos
 
-- Conhecendo composer e configurando a IDEA
+- 01 - Conhecendo composer e configurando a IDEA
