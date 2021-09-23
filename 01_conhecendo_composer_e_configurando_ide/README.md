@@ -96,7 +96,7 @@ Agora tens o arquivo composer.json
   
   O **`*`** indica a versão final, esta versão é retro compativel e não vai trazer problemas se for actulizada, por isso podemos buscar qualquer ou a mais recente e estavel.
   
-  P **`0`** indica uma verão que pode causar problemas de copatibilidade, por isso está não se mexe com frequencia.
+  O **`0`** indica uma verão que pode causar problemas de copatibilidade, por isso está não se mexe com frequencia.
   
   O **`6`** indica a versão do projecto, aqui as mudanças são muito profunndas e podem mudar tudo, a arquitetura do projecto.
   <pre>
@@ -106,7 +106,7 @@ Agora tens o arquivo composer.json
   </pre>
   
 ## Como instalar as dependencias
-Para instalar as dependencias podemos usar os comandos composer install e composer update, a diferença entre ele é que um o installer vai apensa instalar e o outro update vai instalar e actualizar os que estão desactualizados.
+Para instalar as dependências podemos usar os comandos composer install e composer update, a diferença entre ele é que um o installer vai apensa instalar e o outro update vai instalar e actualizar os que estão desactualizados.
 
 *Se for a primeira vez a rodares o composer use o update para ele gerar o arquivo .lock, esse compose.lock é o arquivo onde vamos encontrar as informações sobre a versão exata das bibliotecas que foram instaladas. Isso significa que assim que quando definimos a versão com `*` temos no composer.lock as informações exatas que foram instaladas e se quisermos instalar essas versões de forma exata devemos usa o `composer install` para instalar essa versões aí exatamente como estão aí.*
 
