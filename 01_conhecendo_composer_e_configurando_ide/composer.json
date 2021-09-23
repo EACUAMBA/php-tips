@@ -1,0 +1,29 @@
+{
+  "name" : "eacuamba/delivery_food",
+  "description" : "Um aplicativo para gerir e entregas de comida, permitir o agendamento para entrega de comida.",
+  "minimum-stability" : "stable",
+  "licence" : "MIT",
+  "authors" : [
+    {
+      "name" : "Edilson Alexandre Cuamba",
+      "email" : "edilsoncuamba@gmail.com",
+      "role" : "Architect Software",
+      "homepage" : "https://eacuamba.thundermozambique.com"
+    }
+  ],
+  "config" : {
+    "vendor-dir" : "vendor"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "source\\" : "source/"
+    },
+    "files" : [
+      "source/Config.php"
+    ]
+  },
+  "require" : {
+    "phpmailer/phpmailer" : "6.0.*"
+  }
+
+}
